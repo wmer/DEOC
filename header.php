@@ -18,8 +18,8 @@ require "app/Includes/facebook_config.php";
     <meta name="generator" content="WordPress <?php bloginfo('version'); ?>" />
     <meta http-equiv="content-type" content="<?php bloginfo('html_type'); ?>; <?php bloginfo('charset'); ?>" />
     <!--facebook-->
-    <meta property="fb:app_id" content="109929915831199"/>
-    <meta property="fb:admins" content="100000151111200" />
+    <meta property="fb:app_id" content=""/>
+    <meta property="fb:admins" content="" />
     <meta property="og:type"   content="pensamentossoltos:poem" />
     <meta property="og:title"  content="<?php
     if(is_single()){ single_post_title(); }
