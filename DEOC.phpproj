@@ -1,0 +1,110 @@
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Name>DEOC</Name>
+    <ProjectGuid>{5eca1511-4e92-4c42-9ba0-82d6ce55e93f}</ProjectGuid>
+    <RootNamespace>
+    </RootNamespace>
+    <OutputType>Library</OutputType>
+    <ProjectTypeGuids>{A0786B88-2ADB-4C21-ABE8-AA2D79766269}</ProjectTypeGuids>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <IncludeDebugInformation>true</IncludeDebugInformation>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <IncludeDebugInformation>false</IncludeDebugInformation>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="app\index.html" />
+    <Compile Include="libs\index.html" />
+    <Compile Include="vendor\autoload.php" />
+    <Compile Include="archive.php" />
+    <Compile Include="author.php" />
+    <Compile Include="category.php" />
+    <Compile Include="composer.json" />
+    <Compile Include="composer.lock" />
+    <Compile Include="composer.phar" />
+    <Compile Include="content.php" />
+    <Compile Include="footer.php" />
+    <Compile Include="functions.php" />
+    <Compile Include="header.php" />
+    <Compile Include="index.php" />
+    <Compile Include="page.php" />
+    <Compile Include="screenshot.png" />
+    <Compile Include="sidebar.php" />
+    <Compile Include="single.php" />
+    <Compile Include="style.css" />
+    <Compile Include="tag.php" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="app\Includes" />
+    <Folder Include="app\scripts" />
+    <Folder Include="app\templates" />
+    <Folder Include="app" />
+    <Folder Include="libs\css" />
+    <Folder Include="libs\font\material-design-icons" />
+    <Folder Include="libs\font\roboto" />
+    <Folder Include="libs\font" />
+    <Folder Include="libs\fonts" />
+    <Folder Include="libs\img\BG" />
+    <Folder Include="libs\img\Icones" />
+    <Folder Include="libs\img\Logos" />
+    <Folder Include="libs\img" />
+    <Folder Include="libs\js" />
+    <Folder Include="libs" />
+    <Folder Include="vendor\composer" />
+    <Folder Include="vendor\facebook\php-sdk-v4\docs" />
+    <Folder Include="vendor\facebook\php-sdk-v4\src\Facebook\Entities" />
+    <Folder Include="vendor\facebook\php-sdk-v4\src\Facebook\HttpClients\certs" />
+    <Folder Include="vendor\facebook\php-sdk-v4\src\Facebook\HttpClients" />
+    <Folder Include="vendor\facebook\php-sdk-v4\src\Facebook" />
+    <Folder Include="vendor\facebook\php-sdk-v4\src" />
+    <Folder Include="vendor\facebook\php-sdk-v4\tests\Entities" />
+    <Folder Include="vendor\facebook\php-sdk-v4\tests\HttpClients" />
+    <Folder Include="vendor\facebook\php-sdk-v4\tests" />
+    <Folder Include="vendor\facebook\php-sdk-v4" />
+    <Folder Include="vendor\facebook" />
+    <Folder Include="vendor\guzzlehttp\guzzle\build" />
+    <Folder Include="vendor\guzzlehttp\guzzle\docs\_static" />
+    <Folder Include="vendor\guzzlehttp\guzzle\docs\_templates" />
+    <Folder Include="vendor\guzzlehttp\guzzle\docs" />
+    <Folder Include="vendor\guzzlehttp\guzzle\src\Cookie" />
+    <Folder Include="vendor\guzzlehttp\guzzle\src\Event" />
+    <Folder Include="vendor\guzzlehttp\guzzle\src\Exception" />
+    <Folder Include="vendor\guzzlehttp\guzzle\src\Message" />
+    <Folder Include="vendor\guzzlehttp\guzzle\src\Post" />
+    <Folder Include="vendor\guzzlehttp\guzzle\src\Subscriber" />
+    <Folder Include="vendor\guzzlehttp\guzzle\src" />
+    <Folder Include="vendor\guzzlehttp\guzzle\tests\Cookie" />
+    <Folder Include="vendor\guzzlehttp\guzzle\tests\Event" />
+    <Folder Include="vendor\guzzlehttp\guzzle\tests\Exception" />
+    <Folder Include="vendor\guzzlehttp\guzzle\tests\Message" />
+    <Folder Include="vendor\guzzlehttp\guzzle\tests\Post" />
+    <Folder Include="vendor\guzzlehttp\guzzle\tests\Subscriber" />
+    <Folder Include="vendor\guzzlehttp\guzzle\tests" />
+    <Folder Include="vendor\guzzlehttp\guzzle" />
+    <Folder Include="vendor\guzzlehttp\ringphp\docs" />
+    <Folder Include="vendor\guzzlehttp\ringphp\src\Client" />
+    <Folder Include="vendor\guzzlehttp\ringphp\src\Exception" />
+    <Folder Include="vendor\guzzlehttp\ringphp\src\Future" />
+    <Folder Include="vendor\guzzlehttp\ringphp\src" />
+    <Folder Include="vendor\guzzlehttp\ringphp\tests\Client" />
+    <Folder Include="vendor\guzzlehttp\ringphp\tests\Future" />
+    <Folder Include="vendor\guzzlehttp\ringphp\tests" />
+    <Folder Include="vendor\guzzlehttp\ringphp" />
+    <Folder Include="vendor\guzzlehttp\streams\src\Exception" />
+    <Folder Include="vendor\guzzlehttp\streams\src" />
+    <Folder Include="vendor\guzzlehttp\streams\tests\Exception" />
+    <Folder Include="vendor\guzzlehttp\streams\tests" />
+    <Folder Include="vendor\guzzlehttp\streams" />
+    <Folder Include="vendor\guzzlehttp" />
+    <Folder Include="vendor\react\promise\src" />
+    <Folder Include="vendor\react\promise\tests\PromiseAdapter" />
+    <Folder Include="vendor\react\promise\tests\PromiseTest" />
+    <Folder Include="vendor\react\promise\tests\Stub" />
+    <Folder Include="vendor\react\promise\tests" />
+    <Folder Include="vendor\react\promise" />
+    <Folder Include="vendor\react" />
+    <Folder Include="vendor" />
+  </ItemGroup>
+</Project>

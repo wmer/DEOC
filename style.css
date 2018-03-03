@@ -1,0 +1,365 @@
+/*Projeto PSDOC 09/01/2016*/
+/*
+Theme Name: Devaneios e Outras Coisas
+Theme URI: http://devaneioseoutrascoisas.esy.es/
+Description: Tema especialmente criado para o site Devaneios e Outras Coisas
+Author: William Santana
+Author URI: https://www.facebook.com/william.silvadesantana
+Version: 1.0
+*/
+body {
+    background-color: rgb(230,230,230);
+}
+/*menu bar*/
+.title_bar {
+    font-size: 1.5em !important;
+}
+/*sidebar*/
+.sidebar-menu {
+    width: 250px !important;
+    overflow: hidden !important;
+    -webkit-overflow-scrolling: touch !important;
+}
+.sidebar-menu a {
+    line-height: normal !important;
+    height: auto !important;
+    padding: 0 !important;
+}
+.port_title {
+    height: auto !important;
+    background: url(libs/img/BG/title3.jpg);
+    background-size: 100% 100%;
+    padding: 10px;
+}
+/*titulo e slogan*/
+.title {
+    margin: 0;
+    height: auto !important;
+    padding-bottom: 10px;
+    font-size: 1em !important;
+    clear: both;
+    background-color: rgba(255,255,255,0.4);
+}
+.title a {
+    height: auto !important;
+    padding: 0 !important;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 1.8em !important;
+    font-style: italic;
+    font-weight: normal;
+    line-height: normal;
+    clear: both;
+    text-shadow: 3px 3px 2px rgba(0,0,0,0.5);
+    text-decoration: none;
+    color: #000000;
+}
+.title a:hover {
+    text-decoration: none;
+}
+.slogan {
+    height: auto !important;
+    margin: 0;
+    padding-bottom: 10px;
+    clear: both;
+    background-color: rgba(255,255,255,0.5);
+    font-family: "Times New Roman", Times, serif;
+    font-size: 1em;
+    word-break: keep-all;
+    font-style: italic;
+    font-weight: normal;
+    line-height: normal;
+    color: #000000;
+}
+/*widgets*/
+.port_title_widget {
+    width: 90%;
+    height: 24px;
+    padding-left: 10%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+    clear: both;
+    vertical-align: middle;
+}
+.title_widget {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 1.2em;
+    font-weight: 700;
+    line-height: normal;
+    margin: 0;
+}
+.widget_estrut {
+}
+.widget_estrut ul {
+    width: 100%;
+    height: auto !important;
+    margin: 0 auto;
+    padding: 0;
+}
+.widget_estrut ul li {
+    height: auto;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-right: 5%;
+    list-style: none;
+    vertical-align: middle;
+    text-align: right;
+}
+.widget_estrut ul li a {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 1.2em;
+    font-weight: 500;
+    text-decoration: none;
+    color: #000000;
+}
+.widget_estrut ul li:hover {
+    border-top: 1px solid #cccccc;
+    border-bottom: 1px solid #cccccc;
+    text-shadow: 5px 5px 3px rgba(0,0,0,0.5);
+    background-color: rgba(230,230,230,0.5);
+    color: #000000;
+    cursor: pointer;
+}
+.widget_estrut ul li a:hover {
+    text-decoration: underline;
+    color: red;
+}
+/*segundo nivel*/
+.widget_estrut ul li ul {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    text-shadow: none;
+}
+.widget_estrut ul li ul li {
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-right: 5%;
+    list-style: none;
+    vertical-align: middle;
+    text-align: right;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 1em;
+    font-weight: 500;
+}
+.widget_estrut ul li ul li:hover {
+    padding-right: 15%;
+}
+/*post*/
+.card a {
+    line-height: normal !important;
+    height: auto !important;
+    padding: 0 !important;
+}
+.card-image {
+    overflow: hidden;
+}
+.card-image img {
+    height: 260px;
+}
+.card-title {
+    width: 100%;
+    background-color: rgba(0,0,0,0.4);
+    font-family: "Times New Roman", Times, serif;
+    font-style: italic;
+    box-shadow:  0 0 15px rgba(0,0,0,0.8);
+    border-color: #ffffff !important;
+}
+.card-title h1 {
+    margin: 0 0 5px 3%;
+    font-size: 1.6em !important;
+    text-shadow: 3px 3px 2px rgba(0,0,0,0.5);
+}
+.infos_post {
+    width: 97%;
+    height: auto;
+    clear: both;
+    margin-top: 5px;
+    margin-left: 3%;
+    font-family: Helvetica, "Times New Roman", Times, serif;
+    font-size: 0.8em;
+}
+.card-content {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 1.2em;
+    padding-bottom: 40px !important;
+}
+/*Single Post*/
+.title_bottom_post {
+    width: 100%;
+    height: auto;
+    clear: both;
+    padding-left: 7%;
+    border-bottom: 2px solid #000000;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 1.5em;
+    font-style: italic;
+}
+.port_socis {
+    width: 100%;
+    height: auto;
+    clear: both;
+    table-layout: fixed;
+}
+.port_socis td {
+    padding: 1px !important;
+}
+.port_buttoms {
+    height: auto;
+    clear: both;
+    text-align: left;
+    vertical-align: top;
+}
+#like_fb {
+    width: 48%;
+    text-align: left;
+    vertical-align: top;
+}
+#tweet_port {
+    width: 17%;
+    text-align: left;
+    vertical-align: top;
+}
+#recomend_google {
+    width: 15%;
+    text-align: left;
+    vertical-align: top;
+}
+#comp_fb {
+    width: 20%;
+    text-align: right;
+    vertical-align: top;
+}
+#estrut_comp_trexo {
+    width: 26%;
+    height: auto;
+    border: 1px solid #cccccc;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.7);
+    background-color: #ffffff;
+    position: absolute;
+    display: none;
+
+}
+.comp_trexo {
+    width: 97%;
+    height: auto;
+    padding: 5px 1% 5px 2%;
+    font-family: "times new roman", serif;
+    font-size: 1.5em;
+}
+.port_comp {
+    width: 99%;
+    height: auto;
+    margin: 1px auto;
+    border-top: 1px solid #ccc;
+}
+/*infinite scroll*/
+#infinite-footer .container {
+    margin-left: 31% !important;
+}
+/*media query*/
+@media (max-width: 992px)/*tablets*/
+{
+    /*titulo site*/
+    .title a {
+        font-size: 1.9em !important;
+    }
+    /*sidebar*/
+    .sidebar-menu {
+        overflow: scroll !important;
+    }
+    /*texto bottom post*/
+    .title_bottom_post {
+        font-size: 1.1em;
+    }
+    /*titulo post*/
+    .card-title h1 {
+        font-size: 1.2em !important;
+    }
+    .card-content img {
+        width: 80% !important;
+        height: auto;
+    }
+    .card-content iframe {
+        width: 80% !important;
+        height: auto;
+    }
+    /*barra do infinite scroll*/
+    #infinite-footer .container {
+        margin-left: auto !important;
+    }
+    /*botões sociais*/
+    #like_fb {
+        width: 40%;
+        text-align: left;
+        vertical-align: top;
+    }
+    #tweet_port {
+        width: 13%;
+        text-align: left;
+        vertical-align: top;
+    }
+    #recomend_google {
+        display: none;
+        width: 15%;
+        text-align: left;
+        vertical-align: top;
+    }
+    #comp_fb {
+        width: 20%;
+        text-align: right;
+        vertical-align: top;
+    }
+}
+@media (max-width: 600px)/*celulares*/
+{
+    /*titulo site*/
+    .title a {
+        font-size: 1.9em !important;
+    }
+    /*titulo post*/
+    .card-title h1 {
+        font-size: 1.1em !important;
+    }
+    .card-content img {
+        width: 95% !important;
+        height: auto;
+    }
+    .card-content iframe {
+        width: 95% !important;
+        height: auto;
+    }
+    /*sidebar*/
+    .sidebar-menu {
+        overflow: scroll !important;
+    }
+    /*barra do infinite scroll*/
+    #infinite-footer .container {
+        margin-left: auto !important;
+    }
+    /*botões sociais*/
+    #like_fb {
+        width: 45%;
+        text-align: left;
+        vertical-align: top;
+    }
+    #tweet_port {
+        width: 15%;
+        text-align: left;
+        vertical-align: top;
+    }
+    #recomend_google {
+        display: none;
+        width: 12%;
+        text-align: left;
+        vertical-align: top;
+    }
+    #comp_fb {
+        display: none;
+        width: 20%;
+        text-align: right;
+        vertical-align: top;
+    }
+}
